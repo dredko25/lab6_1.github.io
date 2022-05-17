@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+}
+body{
+    height: 100%;
+    line-height: 1;
+    font-size: 18px;
+}
+._container{
+    width: 500px;
+    height: 600px;
+    padding: 100px 50px;
+    margin: 0px auto;
+}
+.header_form{
+    text-align: center;
+    margin-bottom: 40px;
+}
+input, textarea {
+    width: 400px;
+    height: 45px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+input {
+    padding: 4px;
+    border: 2px solid gray;
+}
+input:focus {
+    outline: none;
+    border-color: red;
+}
+[type="submit"]:focus{
+    outline: none;
+    border-color: gray;
+}
